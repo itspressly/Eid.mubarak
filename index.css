@@ -1,0 +1,49 @@
+body
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pic
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(189, 0, 0);
+    height: 100%;
+    width: 915px;
+    border-top-right-radius: 150px;
+}
+
+.pic h1
+{
+    color: white;
+    padding-left: 50px;
+}
+
+.pic p
+{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    padding: 25px;
+}
+
+img
+{
+    border-radius: 120px; 
+    animation: rotation 4s linear infinite;
+}
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
