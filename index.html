@@ -13,19 +13,22 @@
         <img src="L.T gamestudios picture of banner.jpg" alt="" />
         <p>
             Dear Uncle, as the joyous occasion of Eid arrives, I want to take this moment to wish you a heartfelt Eid Mubarak. May this special day be filled with blessings, happiness, and cherished moments shared with loved ones. May your heart be filled with peace and your home be adorned with laughter and love. Wishing you a joyous and memorable Eid celebration. Eid Mubarak, dear Uncle!</p>
-            <p>From me Pressly</p>
+            <p>From me Pressly</p> 
+            <audio src="" autoplay muted></audio>
+
+    <button onclick="playAudio()">Play</button>
+    <audio id="myAudio" src="Mubarak Eid Mubarak ❤️ Special Eid Song ❤️ HD, Salman Khan, Sushmita _ Sonu Nigam, Arvinder Singh.mp3"></audio>
     </div>
     
-    <script>
-      window.addEventListener('DOMContentLoaded', function() {
-  var audio = new Audio('your-song.mp3'); // Replace 'your-song.mp3' with the path to your audio file
-  audio.addEventListener('ended', function() {
-    this.currentTime = 0;
-    this.play();
-  });
+   
+
+<script>
+function playAudio() {
+  var audio = document.getElementById("myAudio");
   audio.play();
-});
-    </script>
+}
+</script>
+
 
 
 </body>

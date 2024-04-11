@@ -17,12 +17,22 @@ body
     height: 100%;
     width: 915px;
     border-top-right-radius: 150px;
+    padding-bottom: 15px;
 }
 
 .pic h1
 {
     color: white;
     padding-left: 50px;
+}
+
+button
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
 }
 
 .pic p
