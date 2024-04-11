@@ -17,17 +17,14 @@
     </div>
     
     <script>
-        function playSong() {
-  var audio = new Audio('Mubarak Eid Mubarak ❤️ Special Eid Song ❤️ HD, Salman Khan, Sushmita _ Sonu Nigam, Arvinder Singh.mp3'); // Replace 'your-song.mp3' with the path to your audio file
+      window.addEventListener('DOMContentLoaded', function() {
+  var audio = new Audio('your-song.mp3'); // Replace 'your-song.mp3' with the path to your audio file
   audio.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
   });
   audio.play();
-}
-
-// Call the function to play the song
-playSong();
+});
     </script>
 
 
